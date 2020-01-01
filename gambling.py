@@ -1,11 +1,11 @@
 import random
 import time
 
+head_tail = ['H', 'H', 'H', 'H', 'H', 'T', 'T', 'T', 'T', 'T']
 count, heads, tails, game_no = 0,0,0,1
 
 while(True):
-
-  head_tail = ['H', 'H', 'H', 'H', 'H', 'T', 'T', 'T', 'T', 'T']
+  
   flip = random.choice(head_tail)
 
   if flip == 'H':
